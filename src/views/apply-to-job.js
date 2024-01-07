@@ -13,58 +13,13 @@ const ApplyToJob = (props) => {
         <title>Apply-to-Job - Bihar Job Connect</title>
         <meta property="og:title" content="Apply-to-Job - Bihar Job Connect" />
       </Helmet>
-      <div
-        data-thq="thq-dropdown"
-        className="apply-to-job-thq-dropdown list-item"
-      >
-        <ul data-thq="thq-dropdown-list" className="apply-to-job-dropdown-list">
-          <li
-            data-thq="thq-dropdown"
-            className="apply-to-job-dropdown list-item"
-          >
-            <div
-              data-thq="thq-dropdown-toggle"
-              className="apply-to-job-dropdown-toggle"
-            >
-              <span className="apply-to-job-text">Sub-menu Item</span>
-            </div>
-          </li>
-          <li
-            data-thq="thq-dropdown"
-            className="apply-to-job-dropdown1 list-item"
-          >
-            <div
-              data-thq="thq-dropdown-toggle"
-              className="apply-to-job-dropdown-toggle1"
-            >
-              <span className="apply-to-job-text1">Sub-menu Item</span>
-            </div>
-          </li>
-          <li
-            data-thq="thq-dropdown"
-            className="apply-to-job-dropdown2 list-item"
-          >
-            <div
-              data-thq="thq-dropdown-toggle"
-              className="apply-to-job-dropdown-toggle2"
-            >
-              <span className="apply-to-job-text2">Sub-menu Item</span>
-            </div>
-          </li>
-        </ul>
-      </div>
-      <div className="apply-to-job-container1">
-        <div className="apply-to-job-container2">
-          <Script
-            html={`<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW-MHjbi5cIw1PtDJj2Nh6Kff4_Qo6nsWGjhgKl1Z2NKpngg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`}
-          ></Script>
-        </div>
-      </div>
       <header data-thq="thq-navbar" className="apply-to-job-navbar-interactive">
         <span className="apply-to-job-logo">Bihar job connect</span>
         <div data-thq="thq-navbar-nav" className="apply-to-job-desktop-menu">
           <nav className="apply-to-job-links">
-            <span className="apply-to-job-nav1">About</span>
+            <Link to="/" className="apply-to-job-nav1">
+              About
+            </Link>
             <Link to="/apply-to-job" className="apply-to-job-nav2">
               Careers
             </Link>
@@ -79,7 +34,7 @@ const ApplyToJob = (props) => {
         <div data-thq="thq-mobile-menu" className="apply-to-job-mobile-menu">
           <div className="apply-to-job-nav">
             <div className="apply-to-job-top">
-              <span className="apply-to-job-logo1">SURVEYFIRM</span>
+              <span className="apply-to-job-logo1">Bihar Job Connect</span>
               <div
                 data-thq="thq-close-menu"
                 className="apply-to-job-close-menu"
@@ -90,16 +45,14 @@ const ApplyToJob = (props) => {
               </div>
             </div>
             <nav className="apply-to-job-links1">
-              <span className="apply-to-job-nav11">About</span>
-              <span className="apply-to-job-nav21">Careers</span>
-              <span className="apply-to-job-nav3">Pricing</span>
-              <span className="apply-to-job-nav4">Team</span>
-              <span className="apply-to-job-nav5">Blog</span>
+              <Link to="/" className="apply-to-job-nav11">
+                About
+              </Link>
+              <Link to="/apply-to-job" className="apply-to-job-nav21">
+                Careers
+              </Link>
             </nav>
-            <div className="apply-to-job-buttons1">
-              <button className="apply-to-job-login button">Login</button>
-              <button className="apply-to-job-register button">Register</button>
-            </div>
+            <div className="apply-to-job-buttons1"></div>
           </div>
           <div>
             <svg
@@ -123,6 +76,13 @@ const ApplyToJob = (props) => {
           </div>
         </div>
       </header>
+      <div className="apply-to-job-container1">
+        <div className="apply-to-job-container2">
+          <Script
+            html={`<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW-MHjbi5cIw1PtDJj2Nh6Kff4_Qo6nsWGjhgKl1Z2NKpngg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`}
+          ></Script>
+        </div>
+      </div>
     </div>
   )
 }
