@@ -8,8 +8,8 @@ const GalleryCard3 = (props) => {
   return (
     <div className={`gallery-card3-gallery-card ${props.rootClassName} `}>
       <img
-        alt={props.image_alt}
-        src={props.image_src}
+        alt={props.imageAlt}
+        src={props.imageSrc}
         className="gallery-card3-image"
       />
     </div>
@@ -17,15 +17,15 @@ const GalleryCard3 = (props) => {
 }
 
 GalleryCard3.defaultProps = {
-  image_src:
+  imageSrc:
     'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=1500',
-  image_alt: 'image',
+  imageAlt: 'image',
   rootClassName: '',
 }
 
 GalleryCard3.propTypes = {
-  image_src: PropTypes.string,
-  image_alt: PropTypes.string,
+  imageSrc: PropTypes.string,
+  imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

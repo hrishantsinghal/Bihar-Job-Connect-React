@@ -47,7 +47,7 @@ const Home = (props) => {
               <span>Bihar Job Connect</span>
             </h1>
             <span className="home-hero-sub-heading">
-              Transforming data into insights
+              Connecting Expert Surveyors to Your Projects
             </span>
             <div className="home-btn-group"></div>
           </div>
@@ -62,10 +62,10 @@ const Home = (props) => {
             </span>
             <h2 className="home-details-heading heading2">Who We Are</h2>
             <span className="home-details-sub-heading">
-              We are a leading survey firm dedicated to helping businesses make
-              informed decisions through data collection and analysis. With our
-              expertise and advanced technology, we provide actionable insights
-              that drive growth and success.
+              At Bihar Job Connect, we link researchers and companies with
+              skilled surveyors effortlessly. Our vast database bridges the gap
+              between research needs and talented professionals, ensuring
+              seamless collaboration where expertise meets opportunity.
             </span>
           </div>
           <img
@@ -84,29 +84,28 @@ const Home = (props) => {
                 <br></br>
               </span>
               <h2 className="home-features-heading heading2">
-                Unlock the Power of Surveys
+                Explore Our Key Features
               </h2>
               <span className="home-features-sub-heading">
-                Discover the key features that make our survey firm stand out
-                from the rest.
+                Why Choose Bihar Job Connect?
               </span>
             </div>
             <div className="home-container6">
               <FeatureCard
-                Heading="Survey Creation"
-                SubHeading="Easily create and customize surveys to gather valuable data from your target audience."
+                subHeading="Find the perfect surveyor for your project through our customized matching process. We analyze your requirements and connect you with the most suitable professionals from our database."
+                heading="Tailored Matching Process"
               ></FeatureCard>
               <FeatureCard
-                Heading="Data Analysis"
-                SubHeading="Effortlessly analyze survey results with powerful data visualization tools and generate insightful reports."
+                heading="Diverse Skillsets"
+                subHeading="Access a pool of surveyors with diverse skills and expertise. Whether you need someone for rural studies or urban projects, Bihar Job Connect has you covered."
               ></FeatureCard>
               <FeatureCard
-                Heading="Survey Distribution"
-                SubHeading="Reach your desired respondents through various distribution channels like email, social media, and website embedding."
+                heading="Efficient Project Management"
+                subHeading="Streamline your projects with our user-friendly platform. Manage tasks, track progress, and communicate with surveyors effortlessly to ensure project success."
               ></FeatureCard>
               <FeatureCard
-                Heading="Real-time Reporting"
-                SubHeading="Access real-time survey responses and monitor data trends instantly for quick decision-making."
+                heading="Quality Assurance"
+                subHeading="Rest assured with our commitment to quality. Bihar Job Connect ensures that every surveyor in our network is experienced, reliable, and committed to delivering exceptional results."
               ></FeatureCard>
             </div>
           </div>

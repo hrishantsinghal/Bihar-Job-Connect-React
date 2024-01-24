@@ -109,6 +109,7 @@
 }
 .apply-to-job-container2 {
   width: 692px;
+  height: 917px;
 }
 .apply-to-job-container3 {
   display: contents;
@@ -137,7 +138,6 @@
   .apply-to-job-navbar-interactive {
     width: 90%;
     padding: var(--dl-space-space-unit);
-    padding-left: 16px;
     padding-right: 16px;
   }
   .apply-to-job-mobile-menu {
@@ -145,5 +145,8 @@
   }
   .apply-to-job-container2 {
     width: 448px;
+    height: 1010px;
+    align-self: center;
+    padding-right: 0px;
   }
 }
