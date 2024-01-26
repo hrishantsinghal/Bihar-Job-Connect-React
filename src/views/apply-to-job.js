@@ -61,7 +61,7 @@ const ApplyToJob = (props) => {
       <div className="apply-to-job-container2">
         <div className="apply-to-job-container3">
           <Script
-            html={`<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeW-MHjbi5cIw1PtDJj2Nh6Kff4_Qo6nsWGjhgKl1Z2NKpngg/viewform?embedded=true" width="100%" height="1100" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>`}
+            html={`<iframe src="https://[collectvoices].surveycto.com/collect/[randomization]?appearance=min" height="600" width="800"></iframe>`}
           ></Script>
         </div>
       </div>

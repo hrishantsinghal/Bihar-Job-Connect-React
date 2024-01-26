@@ -92,8 +92,8 @@ const Home = (props) => {
             </div>
             <div className="home-container6">
               <FeatureCard
-                subHeading="Find the perfect surveyor for your project through our customized matching process. We analyze your requirements and connect you with the most suitable professionals from our database."
                 heading="Tailored Matching Process"
+                subHeading="Find the perfect surveyor for your project through our customized matching process. We analyze your requirements and connect you with the most suitable professionals from our database."
               ></FeatureCard>
               <FeatureCard
                 heading="Diverse Skillsets"
