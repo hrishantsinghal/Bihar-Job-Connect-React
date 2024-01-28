@@ -61,7 +61,7 @@ const ApplyToJob = (props) => {
       <div className="apply-to-job-container2">
         <div className="apply-to-job-container3">
           <Script
-            html={`<iframe src="https://collectvoices.surveycto.com/collect/job_application_ck?appearance=min" height="1100" width="100%"></iframe>`}
+            html={`<iframe src="https://collectvoices.surveycto.com/collect/job_application_ck?appearance=min" height="1100" width="90%"></iframe>`}
           ></Script>
         </div>
       </div>
