@@ -44,7 +44,7 @@ const Home = (props) => {
                 />
               </span>
               <br></br>
-              <span>Bihar Job Connect</span>
+              <span>Rozgaar Samadhan</span>
             </h1>
             <span className="home-hero-sub-heading">
               Connecting Expert Surveyors to Your Projects
@@ -62,7 +62,7 @@ const Home = (props) => {
             </span>
             <h2 className="home-details-heading heading2">Who We Are</h2>
             <span className="home-details-sub-heading">
-              At Bihar Job Connect, we link researchers and companies with
+              At Rozgaar Samadhan, we link researchers and companies with
               skilled surveyors effortlessly. Our vast database bridges the gap
               between research needs and talented professionals, ensuring
               seamless collaboration where expertise meets opportunity.
@@ -87,7 +87,7 @@ const Home = (props) => {
                 Explore Our Key Features
               </h2>
               <span className="home-features-sub-heading">
-                Why Choose Bihar Job Connect?
+                Why Choose Rozgaar Samadhan?
               </span>
             </div>
             <div className="home-container6">
@@ -97,7 +97,7 @@ const Home = (props) => {
               ></FeatureCard>
               <FeatureCard
                 heading="Diverse Skillsets"
-                subHeading="Access a pool of surveyors with diverse skills and expertise. Whether you need someone for rural studies or urban projects, Bihar Job Connect has you covered."
+                subHeading="Access a pool of surveyors with diverse skills and expertise. Whether you need someone for rural studies or urban projects, Rozgaar Samadhan has you covered."
               ></FeatureCard>
               <FeatureCard
                 heading="Efficient Project Management"
@@ -105,7 +105,7 @@ const Home = (props) => {
               ></FeatureCard>
               <FeatureCard
                 heading="Quality Assurance"
-                subHeading="Rest assured with our commitment to quality. Bihar Job Connect ensures that every surveyor in our network is experienced, reliable, and committed to delivering exceptional results."
+                subHeading="Rest assured with our commitment to quality. Rozgaar Samadhan ensures that every surveyor in our network is experienced, reliable, and committed to delivering exceptional results."
               ></FeatureCard>
             </div>
           </div>
@@ -114,7 +114,7 @@ const Home = (props) => {
       <div className="home-footer">
         <footer className="home-footer1">
           <div className="home-container7">
-            <span className="home-logo">Bihar Job Connect</span>
+            <span className="home-logo">Rozgaar Samadhan</span>
             <nav className="home-nav">
               <span className="home-nav11">About</span>
               <Link to="/apply-to-job" className="home-nav21">
@@ -125,7 +125,7 @@ const Home = (props) => {
           <div className="home-separator"></div>
           <div className="home-container8">
             <span className="home-text09">
-              © 2024 Bihar Job Connect, All Rights Reserved.
+              © 2024 Rozgaar Samadhan, All Rights Reserved.
             </span>
             <div className="home-icon-group"></div>
           </div>

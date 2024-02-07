@@ -462,6 +462,11 @@
   .home-container3 {
     margin-bottom: var(--dl-space-space-unit);
   }
+  .home-hero-heading {
+    color: var(--dl-color-gray-white);
+    font-family: Raleway;
+    line-height: 1.6;
+  }
   .home-btn-group {
     flex-direction: column;
   }
