@@ -10,8 +10,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Bihar Job Connect</title>
-        <meta property="og:title" content="Bihar Job Connect" />
+        <title>Rozgaar Samadhan</title>
+        <meta property="og:title" content="Rozgaar Samadhan " />
       </Helmet>
       <div className="home-header">
         <header data-thq="thq-navbar" className="home-navbar-interactive">
@@ -26,7 +26,7 @@ const Home = (props) => {
             <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
           </div>
           <div data-thq="thq-mobile-menu" className="home-mobile-menu"></div>
-          <Link to="/apply-to-job" className="home-nav2">
+          <Link to="/" className="home-nav2">
             Careers
           </Link>
         </header>
@@ -117,7 +117,7 @@ const Home = (props) => {
             <span className="home-logo">Rozgaar Samadhan</span>
             <nav className="home-nav">
               <span className="home-nav11">About</span>
-              <Link to="/apply-to-job" className="home-nav21">
+              <Link to="/" className="home-nav21">
                 Careers
               </Link>
             </nav>

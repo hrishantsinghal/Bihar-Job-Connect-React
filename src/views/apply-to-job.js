@@ -10,8 +10,8 @@ const ApplyToJob = (props) => {
   return (
     <div className="apply-to-job-container">
       <Helmet>
-        <title>Apply-to-Job - Bihar Job Connect</title>
-        <meta property="og:title" content="Apply-to-Job - Bihar Job Connect" />
+        <title>Apply-to-Job - Rozgaar Samadhan</title>
+        <meta property="og:title" content="Apply-to-Job - Rozgaar Samadhan " />
       </Helmet>
       <header data-thq="thq-navbar" className="apply-to-job-navbar-interactive">
         <Link to="/" className="apply-to-job-nav1">
@@ -24,7 +24,7 @@ const ApplyToJob = (props) => {
             className="apply-to-job-desktop-menu"
           ></div>
         </div>
-        <Link to="/apply-to-job" className="apply-to-job-nav2">
+        <Link to="**" className="apply-to-job-nav2">
           Careers
         </Link>
         <div data-thq="thq-mobile-menu" className="apply-to-job-mobile-menu">
@@ -52,7 +52,7 @@ const ApplyToJob = (props) => {
             <Link to="/" className="apply-to-job-nav11">
               About
             </Link>
-            <Link to="/apply-to-job" className="apply-to-job-nav21">
+            <Link to="**" className="apply-to-job-nav21">
               Careers
             </Link>
           </nav>
