@@ -36,7 +36,6 @@
   --dl-space-space-fourunits: 64px;
   --dl-color-primary1-blue100: #291477ff;
   --dl-space-space-threeunits: 48px;
-  --dl-color-secondary-gray500: #d9d9d9ff;
   --dl-color-secondary-grey400: #eff0f2ff;
   --dl-space-space-oneandhalfunits: 24px;
 }
@@ -80,13 +79,13 @@
 }
 .teleport-show {
   display: flex !important;
+  transform: none !important;
 }
 .heading2 {
   font-size: 2.5rem;
 }
-.heading1 {
-  font-size: 4.5rem;
-  font-weight: 700;
+.heading3 {
+  font-size: 1.8rem;
 }
 .sectionTitle {
   font-size: 1rem;
@@ -94,19 +93,9 @@
   letter-spacing: 1.2;
   text-transform: uppercase;
 }
-.heading3 {
-  font-size: 1.8rem;
-}
-.heading4 {
-  font-size: 1.2rem;
-}
-.Heading {
-  font-size: 32px;
-  font-family: Inter;
+.heading1 {
+  font-size: 4.5rem;
   font-weight: 700;
-  line-height: 1.15;
-  text-transform: none;
-  text-decoration: none;
 }
 .Content {
   font-size: 16px;
@@ -116,17 +105,22 @@
   text-transform: none;
   text-decoration: none;
 }
+.Heading {
+  font-size: 32px;
+  font-family: Inter;
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
 @media(max-width: 767px) {
   .heading2 {
     font-size: 1.8rem;
   }
-  .heading1 {
-    font-size: 2.5rem;
-  }
   .heading3 {
     font-size: 1.1rem;
   }
-  .heading4 {
-    font-size: 1.2rem;
+  .heading1 {
+    font-size: 2.5rem;
   }
 }

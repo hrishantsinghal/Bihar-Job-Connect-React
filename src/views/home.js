@@ -10,44 +10,74 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Rozgaar Samadhan</title>
-        <meta property="og:title" content="Rozgaar Samadhan " />
+        <title>Bihar Job Connect</title>
+        <meta property="og:title" content="Bihar Job Connect" />
       </Helmet>
-      <div className="home-header">
-        <header data-thq="thq-navbar" className="home-navbar-interactive">
-          <div className="home-container1">
-            <nav className="home-links">
-              <Link to="/" className="home-nav1">
-                About
-              </Link>
-            </nav>
-          </div>
-          <div className="home-container2">
-            <div data-thq="thq-navbar-nav" className="home-desktop-menu"></div>
-          </div>
-          <div data-thq="thq-mobile-menu" className="home-mobile-menu"></div>
-          <Link to="**" className="home-nav2">
-            Careers
-          </Link>
-        </header>
-      </div>
       <div className="home-hero">
         <div className="home-hero1">
-          <div className="home-container3">
-            <h1 className="home-hero-heading heading1">
-              <span>
-                Welcome to
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: ' ',
-                  }}
-                />
-              </span>
-              <br></br>
+          <header data-thq="thq-navbar" className="home-navbar-interactive">
+            <span className="home-logo">
               <span>Rozgaar Samadhan</span>
+              <br></br>
+            </span>
+            <div data-thq="thq-navbar-nav" className="home-desktop-menu">
+              <nav className="home-links">
+                <span className="home-nav1">About</span>
+                <Link to="/careers" className="home-nav2">
+                  Careers
+                </Link>
+              </nav>
+              <div className="home-buttons"></div>
+            </div>
+            <div data-thq="thq-burger-menu" className="home-burger-menu">
+              <svg viewBox="0 0 1024 1024" className="home-icon">
+                <path d="M128 554.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 298.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667zM128 810.667h768c23.552 0 42.667-19.115 42.667-42.667s-19.115-42.667-42.667-42.667h-768c-23.552 0-42.667 19.115-42.667 42.667s19.115 42.667 42.667 42.667z"></path>
+              </svg>
+            </div>
+            <div data-thq="thq-mobile-menu" className="home-mobile-menu">
+              <div className="home-nav">
+                <div className="home-top">
+                  <span className="home-logo1">Bihar Job Connect</span>
+                  <div data-thq="thq-close-menu" className="home-close-menu">
+                    <svg viewBox="0 0 1024 1024" className="home-icon02">
+                      <path d="M810 274l-238 238 238 238-60 60-238-238-238 238-60-60 238-238-238-238 60-60 238 238 238-238z"></path>
+                    </svg>
+                  </div>
+                </div>
+                <nav className="home-links1">
+                  <span className="home-nav11">About</span>
+                  <span className="home-nav21">Careers</span>
+                </nav>
+                <div className="home-buttons1"></div>
+              </div>
+              <div>
+                <svg
+                  viewBox="0 0 950.8571428571428 1024"
+                  className="home-icon04"
+                >
+                  <path d="M925.714 233.143c-25.143 36.571-56.571 69.143-92.571 95.429 0.571 8 0.571 16 0.571 24 0 244-185.714 525.143-525.143 525.143-104.571 0-201.714-30.286-283.429-82.857 14.857 1.714 29.143 2.286 44.571 2.286 86.286 0 165.714-29.143 229.143-78.857-81.143-1.714-149.143-54.857-172.571-128 11.429 1.714 22.857 2.857 34.857 2.857 16.571 0 33.143-2.286 48.571-6.286-84.571-17.143-148-91.429-148-181.143v-2.286c24.571 13.714 53.143 22.286 83.429 23.429-49.714-33.143-82.286-89.714-82.286-153.714 0-34.286 9.143-65.714 25.143-93.143 90.857 112 227.429 185.143 380.571 193.143-2.857-13.714-4.571-28-4.571-42.286 0-101.714 82.286-184.571 184.571-184.571 53.143 0 101.143 22.286 134.857 58.286 41.714-8 81.714-23.429 117.143-44.571-13.714 42.857-42.857 78.857-81.143 101.714 37.143-4 73.143-14.286 106.286-28.571z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 877.7142857142857 1024"
+                  className="home-icon06"
+                >
+                  <path d="M585.143 512c0-80.571-65.714-146.286-146.286-146.286s-146.286 65.714-146.286 146.286 65.714 146.286 146.286 146.286 146.286-65.714 146.286-146.286zM664 512c0 124.571-100.571 225.143-225.143 225.143s-225.143-100.571-225.143-225.143 100.571-225.143 225.143-225.143 225.143 100.571 225.143 225.143zM725.714 277.714c0 29.143-23.429 52.571-52.571 52.571s-52.571-23.429-52.571-52.571 23.429-52.571 52.571-52.571 52.571 23.429 52.571 52.571zM438.857 152c-64 0-201.143-5.143-258.857 17.714-20 8-34.857 17.714-50.286 33.143s-25.143 30.286-33.143 50.286c-22.857 57.714-17.714 194.857-17.714 258.857s-5.143 201.143 17.714 258.857c8 20 17.714 34.857 33.143 50.286s30.286 25.143 50.286 33.143c57.714 22.857 194.857 17.714 258.857 17.714s201.143 5.143 258.857-17.714c20-8 34.857-17.714 50.286-33.143s25.143-30.286 33.143-50.286c22.857-57.714 17.714-194.857 17.714-258.857s5.143-201.143-17.714-258.857c-8-20-17.714-34.857-33.143-50.286s-30.286-25.143-50.286-33.143c-57.714-22.857-194.857-17.714-258.857-17.714zM877.714 512c0 60.571 0.571 120.571-2.857 181.143-3.429 70.286-19.429 132.571-70.857 184s-113.714 67.429-184 70.857c-60.571 3.429-120.571 2.857-181.143 2.857s-120.571 0.571-181.143-2.857c-70.286-3.429-132.571-19.429-184-70.857s-67.429-113.714-70.857-184c-3.429-60.571-2.857-120.571-2.857-181.143s-0.571-120.571 2.857-181.143c3.429-70.286 19.429-132.571 70.857-184s113.714-67.429 184-70.857c60.571-3.429 120.571-2.857 181.143-2.857s120.571-0.571 181.143 2.857c70.286 3.429 132.571 19.429 184 70.857s67.429 113.714 70.857 184c3.429 60.571 2.857 120.571 2.857 181.143z"></path>
+                </svg>
+                <svg
+                  viewBox="0 0 602.2582857142856 1024"
+                  className="home-icon08"
+                >
+                  <path d="M548 6.857v150.857h-89.714c-70.286 0-83.429 33.714-83.429 82.286v108h167.429l-22.286 169.143h-145.143v433.714h-174.857v-433.714h-145.714v-169.143h145.714v-124.571c0-144.571 88.571-223.429 217.714-223.429 61.714 0 114.857 4.571 130.286 6.857z"></path>
+                </svg>
+              </div>
+            </div>
+          </header>
+          <div className="home-container1">
+            <h1 className="home-hero-heading heading1">
+              Welcome to our Survey Agency
             </h1>
             <span className="home-hero-sub-heading">
-              Connecting Expert Surveyors to Your Projects
+              Experience the power of data
             </span>
             <div className="home-btn-group"></div>
           </div>
@@ -55,22 +85,26 @@ const Home = (props) => {
       </div>
       <div className="home-details">
         <div className="home-details1">
-          <div className="home-container4">
-            <span className="home-text03 sectionTitle">
+          <div className="home-container2">
+            <span className="home-text02 sectionTitle">
               <span>Details</span>
               <br></br>
             </span>
-            <h2 className="home-details-heading heading2">Who We Are</h2>
+            <h2 className="home-details-heading heading2">
+              About Our Survey Agency
+            </h2>
             <span className="home-details-sub-heading">
-              At Rozgaar Samadhan, we link researchers and companies with
-              skilled surveyors effortlessly. Our vast database bridges the gap
-              between research needs and talented professionals, ensuring
-              seamless collaboration where expertise meets opportunity.
+              We are a leading survey agency with years of experience in
+              collecting and analyzing data. Our team of experts is dedicated to
+              providing high-quality survey solutions tailored to meet your
+              specific needs. With our advanced technology and proven
+              methodologies, we help businesses make informed decisions and
+              drive growth.
             </span>
           </div>
           <img
             alt="image"
-            src="https://images.unsplash.com/photo-1521669246297-b04a27e36f07?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNDU0NjE5OHw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
+            src="https://images.unsplash.com/photo-1618172193763-c511deb635ca?crop=entropy&amp;cs=tinysrgb&amp;fit=max&amp;fm=jpg&amp;ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTcwNDUyNjc3NXw&amp;ixlib=rb-4.0.3&amp;q=80&amp;w=400"
             className="home-details-image"
           />
         </div>
@@ -78,59 +112,132 @@ const Home = (props) => {
       <div className="home-features">
         <div className="home-features-container">
           <div className="home-features1">
-            <div className="home-container5">
-              <span className="home-text06 sectionTitle">
+            <div className="home-container3">
+              <span className="home-text05 sectionTitle">
                 <span>features</span>
                 <br></br>
               </span>
               <h2 className="home-features-heading heading2">
-                Explore Our Key Features
+                Unlock the Power of Surveys
               </h2>
               <span className="home-features-sub-heading">
-                Why Choose Rozgaar Samadhan?
+                Discover the key features that make our survey agency stand out
+                from the rest
               </span>
             </div>
-            <div className="home-container6">
+            <div className="home-container4">
               <FeatureCard
-                heading="Tailored Matching Process"
-                subHeading="Find the perfect surveyor for your project through our customized matching process. We analyze your requirements and connect you with the most suitable professionals from our database."
+                heading="Customizable Surveys"
+                subHeading="Create surveys tailored to your specific needs"
               ></FeatureCard>
               <FeatureCard
-                heading="Diverse Skillsets"
-                subHeading="Access a pool of surveyors with diverse skills and expertise. Whether you need someone for rural studies or urban projects, Rozgaar Samadhan has you covered."
+                heading="Real-time Data Analysis"
+                subHeading="Get instant insights and analyze survey results in real-time"
               ></FeatureCard>
               <FeatureCard
-                heading="Efficient Project Management"
-                subHeading="Streamline your projects with our user-friendly platform. Manage tasks, track progress, and communicate with surveyors effortlessly to ensure project success."
+                heading="Mobile-Friendly Surveys"
+                subHeading="Reach a wider audience with surveys optimized for mobile devices"
               ></FeatureCard>
               <FeatureCard
-                heading="Quality Assurance"
-                subHeading="Rest assured with our commitment to quality. Rozgaar Samadhan ensures that every surveyor in our network is experienced, reliable, and committed to delivering exceptional results."
+                heading="Advanced Reporting"
+                subHeading="Generate comprehensive reports with detailed analysis and visualizations"
               ></FeatureCard>
             </div>
           </div>
         </div>
       </div>
-      <div className="home-footer">
-        <footer className="home-footer1">
-          <div className="home-container7">
-            <span className="home-logo">Rozgaar Samadhan</span>
-            <nav className="home-nav">
-              <span className="home-nav11">About</span>
-              <Link to="**" className="home-nav21">
-                Careers
-              </Link>
-            </nav>
-          </div>
-          <div className="home-separator"></div>
-          <div className="home-container8">
-            <span className="home-text09">
-              © 2024 Rozgaar Samadhan, All Rights Reserved.
+      <div className="home-pricing"></div>
+      <div className="home-gallery"></div>
+      <div className="home-banner">
+        <div className="home-banner1">
+          <span className="home-banner-sub-heading">
+            <span>Privacy Policy for Rozgaar Samadhan</span>
+            <br className="home-text09"></br>
+            <br></br>
+            <br></br>
+            <span>
+              Rozgaar Samadhan is committed to protecting your privacy. This
+              Privacy Policy outlines how we collect, use, and protect your
+              information.
             </span>
-            <div className="home-icon-group"></div>
-          </div>
-        </footer>
+            <br className="home-text13"></br>
+            <br></br>
+            <br className="home-text15"></br>
+            <br></br>
+            <span>1. Information We Collect</span>
+            <br className="home-text18"></br>
+            <br></br>
+            <span>
+              - Personal Information: Name, email address, and phone number.
+            </span>
+            <br className="home-text21"></br>
+            <br></br>
+            <span>
+              - Demographic Information: Age, gender, and employment status.
+            </span>
+            <br className="home-text24"></br>
+            <br></br>
+            <span>
+              - Usage Data: Information on how you interact with our platform.
+            </span>
+            <br className="home-text27"></br>
+            <br></br>
+            <br className="home-text29"></br>
+            <br></br>
+            <span>2. How We Use Your Information</span>
+            <br className="home-text32"></br>
+            <br></br>
+            <span>- To provide and improve our services.</span>
+            <br className="home-text35"></br>
+            <br></br>
+            <span>- To communicate with you about updates and offers.</span>
+            <br className="home-text38"></br>
+            <br></br>
+            <span>
+              - To analyze usage patterns and enhance user experience.
+            </span>
+            <br className="home-text41"></br>
+            <br></br>
+            <br className="home-text43"></br>
+            <br></br>
+            <span>3. Data Protection</span>
+            <br className="home-text46"></br>
+            <br></br>
+            <span>- All data will be stored in encrypted form.</span>
+            <br className="home-text49"></br>
+            <br></br>
+            <span>
+              - Access to your data is restricted to authorized personnel only.
+            </span>
+            <br className="home-text52"></br>
+            <br></br>
+            <span>
+              - We regularly review our security practices to ensure the safety
+              of your information.
+            </span>
+            <br className="home-text55"></br>
+            <br></br>
+            <br className="home-text57"></br>
+            <br></br>
+            <span>4. Contact Us</span>
+            <br className="home-text60"></br>
+            <br></br>
+            <span>
+              If you have any questions about this Privacy Policy, please
+              contact us at [contact information].
+            </span>
+            <br className="home-text63"></br>
+            <br></br>
+            <br className="home-text65"></br>
+            <br></br>
+          </span>
+          <Link to="/careers" className="home-banner-button button">
+            Learn More
+          </Link>
+        </div>
       </div>
+      <div className="home-faq"></div>
+      <div className="home-footer"></div>
     </div>
   )
 }

@@ -19,14 +19,14 @@ const FeatureCard = (props) => {
 }
 
 FeatureCard.defaultProps = {
-  heading: 'Tailored Matching Process',
   subHeading:
-    'Find the perfect surveyor for your project through our customized matching process. We analyze your requirements and connect you with the most suitable professionals from our database.',
+    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In lorem lorem, malesuada in metus vitae, scelerisque accumsan ipsum.',
+  heading: 'Lorem ipsum',
 }
 
 FeatureCard.propTypes = {
-  heading: PropTypes.string,
   subHeading: PropTypes.string,
+  heading: PropTypes.string,
 }
 
 export default FeatureCard

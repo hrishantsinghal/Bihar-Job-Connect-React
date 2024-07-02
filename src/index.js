@@ -10,13 +10,15 @@ import {
 import './style.css'
 import ApplyToJob from './views/apply-to-job'
 import Home from './views/home'
+import NotFound from './views/not-found'
 
 const App = () => {
   return (
     <Router>
       <Switch>
-        <Route component={ApplyToJob} path="**" />
+        <Route component={ApplyToJob} exact path="/careers" />
         <Route component={Home} exact path="/" />
+        <Route component={NotFound} path="**" />
         <Redirect to="**" />
       </Switch>
     </Router>

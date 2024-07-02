@@ -17,16 +17,16 @@ const GalleryCard3 = (props) => {
 }
 
 GalleryCard3.defaultProps = {
-  imageSrc:
-    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=1500',
   imageAlt: 'image',
   rootClassName: '',
+  imageSrc:
+    'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&w=1500',
 }
 
 GalleryCard3.propTypes = {
-  imageSrc: PropTypes.string,
   imageAlt: PropTypes.string,
   rootClassName: PropTypes.string,
+  imageSrc: PropTypes.string,
 }
 
 export default GalleryCard3
