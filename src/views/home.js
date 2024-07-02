@@ -10,8 +10,8 @@ const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
-        <title>Bihar Job Connect</title>
-        <meta property="og:title" content="Bihar Job Connect" />
+        <title>Rozgaar Samadhan</title>
+        <meta property="og:title" content="Rozgaar Samadhan" />
       </Helmet>
       <div className="home-hero">
         <div className="home-hero1">

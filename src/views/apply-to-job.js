@@ -10,8 +10,8 @@ const ApplyToJob = (props) => {
   return (
     <div className="apply-to-job-container">
       <Helmet>
-        <title>Apply-to-Job - Bihar Job Connect</title>
-        <meta property="og:title" content="Apply-to-Job - Bihar Job Connect" />
+        <title>Apply to Job</title>
+        <meta property="og:title" content="Apply to Job" />
       </Helmet>
       <div
         data-thq="thq-dropdown"
@@ -56,7 +56,7 @@ const ApplyToJob = (props) => {
       <div className="apply-to-job-container1">
         <div className="apply-to-job-container2">
           <Script
-            html={`<iframe src="https://collectvoices.surveycto.com/collect/job_application_ck?appearance=min" style="display: block; margin: 0 auto; width: 90%; border: none;" height="1300"></iframe>`}
+            html={`<iframe src="https://collectvoices.surveycto.com/collect/job_application_ck?appearance=min" style="display: block; margin: 0 auto; width: 90%; border: none;" height="1000"></iframe>`}
           ></Script>
         </div>
       </div>
@@ -64,7 +64,9 @@ const ApplyToJob = (props) => {
         <span className="apply-to-job-logo">Bihar job connect</span>
         <div data-thq="thq-navbar-nav" className="apply-to-job-desktop-menu">
           <nav className="apply-to-job-links">
-            <span className="apply-to-job-nav1">About</span>
+            <Link to="/" className="apply-to-job-nav1">
+              About
+            </Link>
             <Link to="/careers" className="apply-to-job-nav2">
               Careers
             </Link>

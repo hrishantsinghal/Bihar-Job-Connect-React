@@ -129,9 +129,9 @@
   font-weight: 500;
 }
 .apply-to-job-container1 {
-  left: 194px;
+  left: 187px;
   width: 735px;
-  bottom: 43px;
+  bottom: -99px;
   height: 864px;
   position: absolute;
 }
@@ -175,6 +175,7 @@
 }
 .apply-to-job-nav1 {
   transition: 0.3s;
+  text-decoration: none;
 }
 .apply-to-job-nav1:hover {
   color: #3d6e70ff;
